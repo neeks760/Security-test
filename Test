@@ -1,4 +1,12 @@
-function logInput() {
-    let username = document.getElementById("username").value;
-    alert("Captured: " + username); // Simulates data logging
-}
+<html>
+<body>
+    <input type="text" id="username" placeholder="Enter username">
+    <button onclick="logInput()">Submit</button>
+    <script>
+        function logInput() {
+            let username = document.getElementById("username").value;
+            alert("Captured: " + username);
+        }
+    </script>
+</body>
+</html>
