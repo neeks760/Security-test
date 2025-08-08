@@ -1,0 +1,4 @@
+function logInput() {
+    let username = document.getElementById("username").value;
+    alert("Captured: " + username); // Simulates data logging
+}
